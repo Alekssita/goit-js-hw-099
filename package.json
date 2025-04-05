@@ -16,5 +16,8 @@
     "url": "https://github.com/Alekssita/goit-js-hw-09/issues"
   },
   "homepage": "https://github.com/Alekssita/goit-js-hw-09#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "simplelightbox": "^2.14.3"
+  }
 }
