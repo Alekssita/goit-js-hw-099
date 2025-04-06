@@ -1,27 +1,23 @@
 {
-  "name": "goit-js-hw-09",
+  "name": "vanilla-app-template",
+  "private": true,
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alekssita/goit-js-hw-09.git"
-  },
-  "keywords": [],
-  "author": "Aleksa <alekssa.ak@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alekssita/goit-js-hw-09/issues"
-  },
-  "homepage": "https://github.com/Alekssita/goit-js-hw-09#readme",
-  "description": "",
-  "dependencies": {
-    "simplelightbox": "^2.14.3"
+    "build": "vite build --base=/goit-js-hw-099/",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.2.5"
+    "glob": "^11.0.0",
+    "postcss": "^8.4.41",
+    "postcss-sort-media-queries": "^5.2.0",
+    "vite": "^5.4.6"
+  },
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
   }
 }
